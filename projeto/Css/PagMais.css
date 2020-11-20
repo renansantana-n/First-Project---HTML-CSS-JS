@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+.paragraph{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 60px;
+}
+
+.paragraph2{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#heading{
+    margin-left: -14px;
+}
+
+#imgD{
+    border: solid 1px #000;
+    height: 165px;
+    width: 165px;
+}
+
+
+
+
+
+
+
+.card {
+    margin:10px auto;
+}
+.card-title {
+	text-transform: uppercase;
+	color: red;
+}
+
+.card-text {
+	margin-top:10px;
+	margin-bottom: 10px;  
+	color:#000000;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#quadrado{
+    border: solid 1px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+#quadrado:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+    box-shadow: 4px 4px 30px 1px black;
+    background: rgb(223, 230, 233);
+}
+
+.card-body{
+    border: solid 1px #000;  
+    background: rgb(223, 230, 233);
+    box-shadow: 1px 1px 10px 0.5px gray;
+    color: black;
+}
+
+.btn{
+    border-radius: 100px;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    transform: rotate(360deg);
+    border: solid 1px black;
+    transition: 0.3s;
+    background: rgb(251, 197, 49);
+}
+
+
+h1{
+  text-align: center;
+}
+#t{
+    color: red;
+}
+
+.w-100{
+    border-radius: 15px;
+    border: solid 1px black;
+    box-shadow: 1px 1px 10px 0.5px #ccc;
+}

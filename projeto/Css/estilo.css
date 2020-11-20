@@ -1,0 +1,91 @@
+
+.container_a{
+    position:relative;
+    box-shadow: 1px 9px 25px 10px #000000;
+}
+
+
+#myFooter {
+    background-color: #3c3d41;
+    color: white;
+    padding-top: 30px;
+    position: relative;
+}
+
+#myFooter .footer-copyright {
+    background-color: #333333;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    padding-right: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    padding-right:0;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter h2 a{
+    text-align: center;
+    color: #fff;
+}
+
+#myFooter a {
+    text-size-adjust: auto;
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+
+#myFooter a:focus { 
+    text-decoration: none;
+    color: white;
+}
+.info{
+    align-items: center;
+    padding-left: 30%;
+    padding: 0 5%;
+}
+
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+    text-align: center;
+    }
+}
+
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+    
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
+
+#DivP{
+    position: relative 
+}

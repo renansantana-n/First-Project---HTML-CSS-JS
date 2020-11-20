@@ -1,0 +1,90 @@
+.paragraph{
+    font-size: 20px;
+    line-height: 22px;
+
+    text-align: left;
+    margin-left: 70px;
+    margin-right: 80px;
+}
+
+hr{
+    border: solid 0.3px #ccc;
+    
+}
+
+
+#imgCarta{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition:1s;
+}
+#imgCarta:hover{
+    transform:scale(1.2) rotateY(360deg);
+    transition: 1s;
+}
+
+#letra{
+    color: #fff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    font-size: 30px;
+}
+h4{
+    margin-top: 60px;
+    font-size: 17px;
+}
+
+.contact{
+    padding: 4%;
+	height: 400px;
+}
+
+.col-md-3{
+   background: #3c3d41;
+   padding: 4%;
+   border-top-left-radius: 0.5rem;
+   border-bottom-left-radius: 0.5rem;
+}
+
+
+
+.contact-info img{
+   margin-bottom: 15%;
+}
+
+.contact-info h2{
+	margin-bottom: 10%;
+}
+
+.col-md-9{
+	background: #fff;
+	padding: 3%;
+	border-top-right-radius: 0.5rem;
+	border-bottom-right-radius: 0.5rem;
+}
+
+.contact-form label{
+	font-weight:600;
+}
+	
+
+#sug{
+    box-shadow: 0 0 3px gray;
+    border-radius: 8px;
+    transition: 0.4s;
+    width:690px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    line-height: 15px;
+}
+#sug:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+    box-shadow: 0 0 10px black;
+    
+}
